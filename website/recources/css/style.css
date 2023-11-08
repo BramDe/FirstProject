@@ -1,0 +1,239 @@
+/*styling the whole website */
+
+* {
+    box-sizing: border-box;
+}
+
+/*styling the html */
+
+html {
+    background-color: darkgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+/*styling the body */
+
+body {
+    width: 90%;
+    margin: 5px auto 0 auto;
+    background-color: darkgrey;
+    color: whitesmoke;
+}
+
+/*styling all h1's */
+
+h1 {
+    color: lightgreen;
+    text-align: center;
+}
+
+/*styling all h3's */
+
+h3 {
+    color: forestgreen;
+}
+
+/*styling all img's */
+
+img {
+    max-width: 500px;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+/*styling the div: header */
+
+div.header {
+    height: 360px;
+    background-image: url("/recources/images/natureBackground.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+    text-align: center;
+    color: forestgreen;
+    padding-top: 25px;
+}
+
+/*styling the div: navigation */
+
+div.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+div.navigation li {
+    float: left;
+}
+
+div.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.navigation li a:hover {
+    background-color: lightgreen;
+}
+
+div.navigation li a.active {
+    background-color: lightgreen;
+}
+
+/*styling the div: abuit_us */
+
+div.about_us {
+    overflow: hidden;
+    height: 600px;
+    padding-top: 25px;
+}
+
+div.about_us div.left {
+    float: left;
+    width: 50%;
+    padding: 10px;
+
+}
+
+div.about_us div.right {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    border: whitesmoke 5px;
+    border-style: hidden hidden hidden solid;
+}
+div.about_us a {
+    color: lightgreen;
+    margin-left: 98%;
+    vertical-align: -60px;
+}
+
+/*styling the div: climate */
+
+div.climate {
+    overflow: hidden;
+    background-color: grey;
+    padding: 20px;
+    height: 1000px;
+}
+
+div.climate div.left {
+    float: left;
+    width: 66.66%;
+    padding: 10px;
+}
+
+div.climate div.right {
+    float: right;
+    width: 33.33%;
+    padding: 10px;
+}
+
+div.climate img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+div.climate a {
+    color: lightgreen;
+    margin-left: 98%;
+    vertical-align: -120px;
+}
+
+/*styling the div: how */
+
+div.how {
+    overflow: hidden;
+    text-align: center;
+    height: 800px;
+}
+
+div.how img {
+    width: 300px;
+}
+
+div.how div.container {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+div.how div.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.how a {
+    color: lightgreen;
+    margin-left: 98%;
+    vertical-align: -10px;
+}
+
+/*styling the div: contact */
+
+div.contact {
+    overflow: hidden;
+    background-color: grey;
+    height: 800px;
+}
+
+div.contact div.contactLeft {
+    float: left;
+    width: 33.33%;
+    padding: 15px;  
+    text-align: right;
+    padding-top: 50px;
+}
+
+div.contact div.contactRight{
+    float: right;
+    width: 66.66%;
+    padding: 15px; 
+    padding-top: 50px;
+    border: darkgreen 5px;
+    border-style: hidden hidden hidden solid;
+}
+div.contact div.contactRight i {
+    vertical-align: -4px;
+    padding: 14px;
+    background-color: lightgreen;
+
+}
+div.contact input {
+    width: 80%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+div.contact input[type=submit] {
+    width: 86%;
+    background-color: lightgreen;
+    color: whitesmoke;
+    border: none;
+}
+
+div.contact input[type=submit]:hover {
+    background-color: black;
+} 
+div.contact a {
+    color: lightgreen;
+    margin-left: 98%;
+    vertical-align: -280px;
+}
+
+/*styling the div: footer */
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(45, 45, 45);
+    color: wheat;
+}
